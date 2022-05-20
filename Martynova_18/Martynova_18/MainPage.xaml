@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Martynova_18.MainPage">
+    <StackLayout>
+        <Button Text="Получить курс" Command="{Binding LoadDataCommand}"  />
+        <Label FontSize="Medium" Text="Текущий курс" />
+        <Label FontSize="Medium" FontAttributes="Bold" Text="{Binding Rate}" />
+        <Label FontSize="Medium" Text="Спрос" />
+        <Label FontSize="Medium" FontAttributes="Bold"  Text="{Binding Ask}" />
+        <Label FontSize="Medium" Text="Предложение" />
+        <Label FontSize="Medium" FontAttributes="Bold" Text="{Binding Bid}" />
+    </StackLayout>
+
+</ContentPage>
